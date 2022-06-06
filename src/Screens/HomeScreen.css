@@ -1,0 +1,100 @@
+.homescreen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 1300px;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.top-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5rem;
+  color: rgb(128, 13, 128);
+  font-family: 'Times New Roman', Times, serif
+}
+
+.page-title {
+  margin: 2rem;
+  font-weight: 540;
+  font-size: 260%;
+}
+
+.top-container > h2 {
+  font-size: 180%;
+  font-weight: 400;
+  margin: 3rem;
+}
+
+.top-container > a {
+  text-decoration: none;
+  color: whitesmoke;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: rgb(93, 179, 126);
+}
+
+.mid-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.mid-container > div{
+    width: 35%;
+    margin: 0.2rem;
+    padding: 0.2rem;
+    border: 1px solid whitesmoke;
+}
+
+.mid-container > div > h2{
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.buttom-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.buttom-container > h2{
+    margin-bottom: 2rem;
+    font-weight: 500;
+    color: rgb(109, 106, 106);
+}
+.sub-buttom{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.buttom-box-container{
+    padding: 1rem;
+    width: 38%;
+    margin: 1rem;
+    border: 1px solid rgb(44, 6, 44);
+    border-radius: 10px;
+    background-color: rgb(236, 226, 226);
+    box-shadow: 7px 7px 9px rgba(221, 64, 187, 0.644);
+}
+
+.buttom-box-container > h3{
+    font-weight: 400;
+    font-size: larger;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.buttom-box-container > p{
+    text-align: center;
+    font-weight: 200;
+    margin-bottom: 8px;
+}
